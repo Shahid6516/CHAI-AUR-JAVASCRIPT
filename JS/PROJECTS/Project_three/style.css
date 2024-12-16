@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body{
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+
+    margin: 5vw 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+
+}
+#banner{
+}
+#clock{
+    /* width: 150px; */
+    border-radius: 10px;
+    /* height: 40px; */
+    background-color: rgb(207, 128, 141);
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 5px solid rgb(175, 119, 129) ;
+}
